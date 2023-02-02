@@ -32,7 +32,7 @@ body {
     border: none;
     cursor: pointer;
   }
-  
+
   .side-nav {
     display: flex;
     background-color: #FFFCF1;
@@ -60,4 +60,34 @@ body {
 
   #meny{
     font-size: 500%;
+  }
+
+  .main{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sale{
+    display: flex;
+    height: 20vh;
+    width: 75vh;
+    justify-content: center;
+    background-color:#FF0000;
+  }
+
+  .boxes{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #product{
+    width: 30%;
+  }
+  #product img{
+    width: 30%;
   }
